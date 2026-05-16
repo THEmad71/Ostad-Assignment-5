@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://news-portal-backend-lgph.onrender.com/api",
 });
 
 // প্রতিটা request এ automatically token যুক্ত করবে
